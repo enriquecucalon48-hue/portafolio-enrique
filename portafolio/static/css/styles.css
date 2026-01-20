@@ -471,3 +471,64 @@ main {
         opacity: 0.55;
     }
 }
+/* =========================
+   MOBILE TYPOGRAPHY BOOST
+========================= */
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero-eyebrow {
+        font-size: 0.65rem;
+        letter-spacing: 2px;
+    }
+
+    .hero-title {
+        font-size: 3rem; /* ⬆ más impacto */
+        line-height: 1.05;
+    }
+
+    .hero-description {
+        font-size: 1rem; /* ⬆ legible */
+        line-height: 1.6;
+        max-width: 320px;
+    }
+
+    .hero-cta {
+        font-size: 0.75rem;
+    }
+
+    /* SOBRE MÍ */
+    .about-content h1 {
+        font-size: 2.2rem;
+        margin-bottom: 16px;
+    }
+
+    .about-intro {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .about-block h3 {
+        font-size: 0.7rem;
+    }
+
+    .about-block p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* PROYECTOS */
+    .project-info h3 {
+        font-size: 1.6rem;
+    }
+
+    .project-info p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* FOOTER */
+    .site-footer {
+        font-size: 0.65rem;
+    }
+}
