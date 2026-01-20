@@ -390,6 +390,9 @@ main {
 /* =========================
    MOBILE FINAL TUNING
 ========================= */
+/* =========================
+   MOBILE FINAL TUNING
+========================= */
 @media (max-width: 768px) {
 
     body {
@@ -410,54 +413,61 @@ main {
     .hero-editorial {
         grid-template-columns: 1fr;
         min-height: auto;
-        padding-bottom: 24px;
+        padding-bottom: 32px;
     }
 
     .hero-text {
-        padding: 64px 24px 24px;
+        padding: 72px 24px 28px;
         align-items: center;
         text-align: center;
     }
 
+    /* 👁️ Eyebrow más legible */
     .hero-eyebrow {
-        font-size: 0.55rem;
-        margin-bottom: 10px;
+        font-size: 0.7rem;
+        letter-spacing: 2.5px;
+        margin-bottom: 12px;
     }
 
+    /* ⭐ Nombre protagonista */
     .hero-title {
-        font-size: 2.6rem;
-        line-height: 1;
-        margin-bottom: 16px;
+        font-size: 3.1rem;
+        line-height: 1.05;
+        margin-bottom: 18px;
     }
 
+    /* 📖 Texto cómodo de leer */
     .hero-description {
-        font-size: 0.9rem;
-        max-width: 300px;
+        font-size: 1.05rem;
+        line-height: 1.8;
+        max-width: 320px;
     }
 
+    /* CTA más claro */
     .hero-cta {
-        margin-top: 22px;
+        margin-top: 28px;
+        font-size: 0.75rem;
     }
 
     /* FOTO */
     .hero-visual {
-        margin-top: 24px;
+        margin-top: 32px;
     }
 
     .hero-circle {
-        width: 210px;
-        height: 210px;
-        background-size: 130%;
+        width: 240px;
+        height: 240px;
+        background-size: 135%;
         background-position: center 22%;
-        box-shadow: 0 25px 70px rgba(0,0,0,0.45);
+        box-shadow: 0 28px 80px rgba(0,0,0,0.45);
     }
 
     /* FOOTER */
     footer,
     .site-footer {
-        margin-top: 32px;
-        padding: 20px 16px;
-        font-size: 0.6rem;
-        opacity: 0.5;
+        margin-top: 40px;
+        padding: 22px 16px;
+        font-size: 0.65rem;
+        opacity: 0.55;
     }
 }
