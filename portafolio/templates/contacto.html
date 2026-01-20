@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Contacto | Enrique{% endblock %}
+
+{% block content %}
+<section class="contact-editorial">
+    <div class="contact-grid">
+
+        <div class="contact-info">
+            <h1>Contacto</h1>
+            <p>Contactame en:</p>
+
+            <ul>
+                <li><strong>Gmail</strong> enriquecucalon48@gmail.com</li>
+                <li><strong>WhatsApp</strong> +593 095 907 4986</li>
+                <li><strong>Telegram</strong> +593 095 907 4986</li>
+            </ul>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Asunto">
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
+    </div>
+</section>
+{% endblock %}

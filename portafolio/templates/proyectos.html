@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Proyectos | Enrique{% endblock %}
+
+{% block content %}
+<section class="projects-editorial">
+
+    <article class="project-row">
+        <a href="{% url 'proyecto_detalle' %}" class="project-link-row">
+
+            <div class="project-thumb">
+                <img src="{% static 'img/logo2barbon.jpg' %}" alt="Las Guesas del Barbón">
+            </div>
+
+            <div class="project-info">
+                <h3>Las Guesas del Barbón</h3>
+                <p>
+                    Sistema de pedidos con bot de Telegram,
+                    panel web y experiencia mobile-first.
+                </p>
+            </div>
+
+        </a>
+    </article>
+
+</section>
+{% endblock %}
+

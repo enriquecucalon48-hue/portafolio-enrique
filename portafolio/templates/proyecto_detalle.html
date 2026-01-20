@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ proyecto.titulo }} | Enrique{% endblock %}
+
+{% block content %}
+<section class="project-detail">
+
+  <div class="project-content">
+    <h1>Las Guesas del Barbón</h1>
+    <p class="project-description">
+      Sistema de pedidos con bot de Telegram,
+      panel administrativo y diseño mobile-first.
+    </p>
+  </div>
+
+ <div class="project-gallery">
+    <img src="{% static 'img/munuphone.png' %}" alt="App inicio" class="lightbox-img">
+    <img src="{% static 'img/GUESASPHONE.jpg' %}" alt="Pantalla pedidos" class="lightbox-img">
+    <img src="{% static 'img/guesastelegram.png' %}" alt="Bot Telegram" class="lightbox-img">
+     <img src="{% static 'img/pcbarbon.jpeg' %}" alt="Pc" class="lightbox-img">
+
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+    <img src="" alt="Imagen ampliada">
+</div>
+
+
+  <a
+    href="https://las-guesas-del-barbon.onrender.com"
+    target="_blank"
+    class="project-link">
+    Ver proyecto online
+  </a>
+
+</section>
+
+{% endblock %}
